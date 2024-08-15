@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const card = document.createElement("div");
         card.className =
           "bg-white border border-gray-300 rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl";
-
         card.innerHTML = `
         <img class="w-full h-48 object-cover" src="${map.urlImages[0]}" alt="${map.name}">
         <div class="p-6">
